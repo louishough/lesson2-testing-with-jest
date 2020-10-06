@@ -2,14 +2,14 @@ var childOf = function() {
     return this.parents.map(parent => parent.name).join(" & ")
 }
 
-const person1 = { name: "Louis", parents:[], childOf }
-const person2 = { name: "Amber", parents:[], childOf }
-const person3 = { name: "Selina", parents:[], childOf }
-const person4 = { name: "Andy", parents:[], childOf }
-const person5 = { name: "Muddy", parents:[], childOf }
-const person6 = { name: "Nanny", parents:[], childOf }
-const person7 = { name: "Mick", parents:[], childOf }
-const person8 = { name: "Maggy", parents:[], childOf }
+const person1 = { name: "Louis", childOf }
+const person2 = { name: "Amber", childOf }
+const person3 = { name: "Selina", childOf }
+const person4 = { name: "Andy", childOf }
+const person5 = { name: "Muddy", childOf }
+const person6 = { name: "Nanny", childOf }
+const person7 = { name: "Mick", childOf }
+const person8 = { name: "Maggy", childOf }
 
 const people = { person1, person2, person3, person4, person5, person6, person7, person8 }
 
